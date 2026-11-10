@@ -6,6 +6,13 @@ workflows:
     environment:
       java: 17
     scripts:
+      - name: Generate Gradle Wrapper
+        script: |
+          # Instalar Gradle y generar el wrapper que falta
+          curl -s "https://get.sdkman.io" | bash
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
+          sdk install gradle 8.2
+          gradle wrapper
       - name: Clean and Build Android APK
         script: |
           chmod +x gradlew
