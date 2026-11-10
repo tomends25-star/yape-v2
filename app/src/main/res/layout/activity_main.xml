@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F8F9FA"
+    tools:context=".MainActivity">
+
+    <!-- Tarjeta informativa y estado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="28dp">
+
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lector Yape"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#591386"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvAppSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lectura automática de transferencias por voz"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- TextView del estado del permiso requerido -->
+        <TextView
+            android:id="@+id/tvPermissionStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permiso: no activado"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#C62828"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón para abrir configuración del sistema -->
+        <Button
+            android:id="@+id/btnOpenSettings"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Activar acceso a notificaciones"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="#7522AA"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- Instrucciones de uso -->
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="1. Presiona el botón para ir a Ajustes de Android.\n2. Busca 'Lector Yape' y activa la casilla.\n3. ¡Listo! Cada vez que llegue un Yape, se anunciará en voz alta."
+        android:textSize="13sp"
+        android:textColor="#757575"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

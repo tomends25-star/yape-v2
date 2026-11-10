@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.LectorYape" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/yape_purple</item>
+        <item name="colorPrimaryVariant">@color/yape_dark_purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/yape_cyan</item>
+        <item name="android:statusBarColor">@color/yape_dark_purple</item>
+        <item name="android:windowBackground">@color/bg_light</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <color name="yape_purple">#7522AA</color>
+    <color name="yape_dark_purple">#591386</color>
+    <color name="yape_cyan">#00D4B2</color>
+    <color name="status_green">#2E7D32</color>
+    <color name="status_red">#C62828</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_light">#F8F9FA</color>
+</resources>

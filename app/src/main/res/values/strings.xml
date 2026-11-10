@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lector Yape</string>
+    <string name="service_name">Lector de Notificaciones Yape</string>
+    <string name="permission_enabled">Permiso: activado</string>
+    <string name="permission_disabled">Permiso: no activado</string>
+    <string name="btn_enable_permission">Activar acceso a notificaciones</string>
+    <string name="btn_open_settings">Configuración de notificaciones</string>
+</resources>
